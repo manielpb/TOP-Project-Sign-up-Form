@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-body{
+    display: flex;
+   justify-content: space-evenly;
+    
+}
+
+.form-background{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+@font-face {
+    font-family:Norse-Bold ;
+    src: url(Norse-Bold.otf);
+}
+
+.logo {
+    font-family: Norse-Bold;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+     color: #ffffff; 
+    font-size: 100px;
+    height:20vh;
+    margin-top: 105px;
+    padding: 20px;
+   width: 100vw;
+}
+
+.logo-image{
+    width: 100px;
+}
+
+p .logo-text{
+    color: red;
+}
+
+header{
+    width: 590px;
+}
+
+.form-header {
+    font-weight: bold;
+    margin: 100px  75px 50px 25px;
+    line-height: 1;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    
+   
+}
+
+.want{
+    margin-top: 30px;
+}
+.form-title{
+   
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 20px 25px
+}
+
+form{
+    display: flex;
+    padding: 10px 0 0 25px;
+ 
+   
+}
+
+.one{
+   
+    box-shadow: 0 0 1px 1px;
+}
+
+.form-row{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.right-align{
+    margin-left: 50px;
+}
+
+.form-row label{
+    font-size: 12px;
+}
+
+.button{
+    margin-left: 25px;
+}
+
+button{
+    margin: 25px 0;
+   
+    background-color: #596D48;
+    color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button p{
+    font-size: 25px;
+    
+}
+.emphasis{
+    color: #596D48;
+}
+
+.form-row input[type='password']:invalid{
+    border: 1px solid red;
+    color: red;
+}
+  
+.form-row input:focus{
+    border: 1px solid blue;
+    box-shadow: 0 0 2px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password']{
+   width: 250px;
+    padding: 6px 10px;
+    margin: 8px 0;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+   margin-left: 30px;
+   margin-bottom: 20px;
+}
